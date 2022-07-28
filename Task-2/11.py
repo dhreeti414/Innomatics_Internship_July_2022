@@ -1,8 +1,7 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-m=int(input())
-M=set(map(int,input().split()))
 n=int(input())
 N=set(map(int,input().split()))
+b=int(input())
+B=set(map(int,input().split()))
 
-for i in sorted(M^N):
-    print(i)
+print(len(N^B))
